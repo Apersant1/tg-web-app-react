@@ -34,14 +34,14 @@ const Form = () => {
         } else {
             tg.MainButton.show();
         }
-    }, [country, street])
+    }, [name, address])
 
     const onChangeName = (e) => {
-        setCountry(e.target.value)
+        setName(e.target.value)
     }
 
     const onChangeAddress = (e) => {
-        setStreet(e.target.value)
+        setAddress(e.target.value)
     }
 
     return (
